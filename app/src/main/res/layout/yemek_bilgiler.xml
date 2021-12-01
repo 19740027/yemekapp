@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_bacground"
+        android:drawableLeft="@drawable/ic_baseline_add_24"
+        android:layout_marginTop="8dp"
+        android:ems="20"
+        android:hint="@string/Yemek"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_bacground"
+        android:drawableLeft="@drawable/ic_baseline_add_24"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/Süre"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_bacground"
+        android:drawableLeft="@drawable/ic_baseline_add_24"
+        android:ems="10"
+        android:hint="@string/Miktar"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@drawable/edittext_bacground"
+        android:drawableLeft="@drawable/ic_baseline_add_24"
+        android:ems="10"
+        android:hint="@string/Ek"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:gravity="top"
+        android:text=""
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHint="@color/purple_200"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Tıkla"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Pay"
+        android:background="@drawable/button_backgorund"
+        android:text="Kaydet"/>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yemek Tarifleri</string>
+    <string name="edittexthint">Eklemek İçin Devamet Et</string>
+    <string name="eklebtn">Devam Et</string>
+    //yemek bilgileri
+    <string name="Yemek">Yemek adı giriniz.</string>
+    <string name="Süre">Pişirme süresi giriniz.</string>
+    <string name="Miktar">Tuz,su miktarı giriniz.</string>
+    <string name="Ek">Ek bilgi</string>
+    <string name="Pay">Save</string>
+</resources>
