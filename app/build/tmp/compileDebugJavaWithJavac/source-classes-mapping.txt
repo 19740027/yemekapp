@@ -1,0 +1,2 @@
+com/example/yemektarifleri/BuildConfig.java
+ com.example.yemektarifleri.BuildConfig
